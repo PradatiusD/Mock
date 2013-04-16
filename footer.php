@@ -13,15 +13,15 @@
 <div style="display:none">
 	<div id="myDivID2">
 		<form action="">
-			Full Name*:<input type="text">
+			<input type="text" placeholder="Full Name*">
 			<br>
-			Email*:<input type="email">
+			<input type="text" placeholder="Email*">
 			<br>
-			Phone Number:<input type="tel">
+			<input type="text" placeholder="Phone Number">
 			<br>
-			Message*: <textarea name="" id="" cols="30" rows="10"></textarea>
+			<textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
 			<br>
-			<input type="submit" value="send">
+			<input type="submit" value="Send" class="send">
 		</form>
 	</div>
 </div>

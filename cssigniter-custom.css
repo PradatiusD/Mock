@@ -33,6 +33,10 @@ body {
 	border-top-right-radius: 4px;
 }
 
+#site-head {
+	border:0px;
+}
+
 .entry-permalink {
 }
 
@@ -51,6 +55,8 @@ hgroup.logo.imglogo {
 #entry-listing .heart-no. #entry-listing .heart-no {
 	color: white;
 }
+
+
 
 hgroup.logo.imglogo img {
 	width: 100%
@@ -87,11 +93,20 @@ div.header-wgt.group {
 #header {
 	background:url('http://pradadesigners.com/Projects/Mock/topBackground.png');
 	border-top:0;
+	background-size: 100%;
+}
+
+#header .widget {
+	float:none;
+	margin-top:0px;
 }
 
 #header #text-2 {
 	display: block;
 	float: none;
+	padding-left: 5%;
+	padding-bottom: 68px;
+	padding-top: 2em;
 }
 #header aside#text-2 div.textwidget h2 {
 	text-shadow: none;
@@ -101,7 +116,7 @@ div.header-wgt.group {
 
 #header aside#text-2 div.textwidget p {
     text-shadow:none;
-    font-size:14px;
+    font-size:18px;
     color:white;
 }
 
@@ -139,6 +154,16 @@ div.header-wgt.group {
 	font-size: 15px;
 }
 
+input.send {
+	color: #FFF;
+	border: 0;
+	padding: 1em 2em;
+	text-align: center;
+	width: 100%;
+	display: block;
+	margin-top: 1em;
+}
+
 a.cta {
    display:inline-block;
    padding:1em 3em;
@@ -146,6 +171,11 @@ a.cta {
    text-shadow:none;
    border-radius:3px; 
 }
+
+a.cta:hover {
+	text-decoration: underline;
+}
+
 a.cta.red, a#fancyBoxLink1 {
     background-image: linear-gradient(bottom, rgb(188,22,0) 21%, rgb(254,59,15) 99%);
 background-image: -o-linear-gradient(bottom, rgb(188,22,0) 21%, rgb(254,59,15) 99%);
@@ -163,7 +193,7 @@ background-image: -webkit-gradient(
     margin-right:30px;
     text-shadow:none;
 }
-a.cta.black, a#fancyBoxLink2 {
+a.cta.black, a#fancyBoxLink2, input.send {
     background-image: linear-gradient(bottom, rgb(45,42,38) 23%, rgb(92,85,78) 73%);
 background-image: -o-linear-gradient(bottom, rgb(45,42,38) 23%, rgb(92,85,78) 73%);
 background-image: -moz-linear-gradient(bottom, rgb(45,42,38) 23%, rgb(92,85,78) 73%);
@@ -202,6 +232,11 @@ div.header-wgt.group {
     background: #F6F4EF
 }
 
+#header #text-4 h4 {
+    padding: .5em 0em 1em 0em;
+    background:white;
+}
+
 #header h4 {
     color: #4B4B4B;
     font-family:'Helvetica Neue', Helvetica, sans-serif;
@@ -209,6 +244,7 @@ div.header-wgt.group {
 
 #header #search-2 {
     background: white;
+    padding-bottom:2em;
 }
 
 .comments-no {
@@ -221,6 +257,33 @@ div.entry-meta.group {
 	float: right;
 	margin-top: 3px;
 }
+
+.searchform {
+	margin-top:-14px;
+}
+
+.wrap {
+	padding: 0;
+}
+
+
+#myDivID p {
+    display:inline-block;
+    width:14.3%;
+    padding: 0 1%;
+    vertical-align:top;
+    font-size:14px;
+    text-align:justify;
+}
+
+#myDivID p strong {
+    display:block;
+    border-bottom: 1px solid gray;
+    margin-bottom:10px
+}
+
+
+
 
 @media only screen and ( max-width: 480px ) {
 	#header input.s {
