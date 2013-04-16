@@ -511,7 +511,7 @@ Content
 .box {
   background: #fff;
   float: left;
-  width: 260px;
+  width: 360px;
   margin-left: 15px;
   margin-bottom: 15px;
 
@@ -719,7 +719,7 @@ Format Specific Styles
 */
 
 #intro.box {
-  width: 250px;
+  width: 350px;
   padding: 5px;
 }
 
