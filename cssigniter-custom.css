@@ -1,0 +1,158 @@
+body {
+	background:none;
+}
+
+#main {
+            zoom: 1.4;
+        -moz-transform: scale(1.4);
+}
+
+.entry-permalink {
+	text-indent: inherit;
+	background: none;
+	color: white;
+	background: #F10060;
+	height: inherit;
+	width: inherit;
+	padding: 1em;
+	font-size: 16px;
+	float: right;
+	z-index: 100;
+	position: relative;
+	bottom: 25px;
+	display:none;
+}
+
+.box .entry-desc {
+	background:none;
+	border:0;
+}
+
+.heart-this, .heart-this:visited, .heart-this.loved, .heart-this.loved:hover {
+	display: none;
+}
+
+.box .entry-content-cnt {
+	background:url('http://pradadesigners.com/Projects/Mock/coffee.png');
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.entry-permalink {
+}
+
+#entry-listing .format-standard .entry-content {
+	background:#b7b7b7;
+}
+
+hgroup.logo.imglogo {
+	float: none;
+	display: block;
+	margin: 0 auto;
+/*	Below width edits logo size */
+	width: 238px;
+}
+
+#entry-listing .heart-no. #entry-listing .heart-no {
+	color: white;
+}
+
+hgroup.logo.imglogo img {
+	width: 100%
+}
+
+.fancybox-nav {
+	display: none;
+}
+
+#entry-listing .entry h1 {
+	margin-bottom:0px;
+	width:100%;
+	display: inline-block;
+	line-height: 11px;
+}
+
+#entry-listing .entry h1 a {
+	color: #9e9e9e;
+	font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+div.header-wgt.group {
+	display: block;
+	float: none;
+	margin-bottom:2em;
+}
+
+.comments0no {
+	display: none;
+}
+
+#header #text-2 {
+	display: block;
+	float: none;
+}
+#header aside#text-2 div.textwidget h2 {
+	text-align: center;
+	color: #616161;
+	text-shadow: none;
+	font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	font-weight: 200;
+}
+
+#header #search-2 {
+	float: none;
+	display: block;
+}
+
+#header input.s {
+	width: 45%;
+	margin-left: 25%;
+}
+
+#header label.fLabel {
+	margin-left: 25%;
+}
+
+#header div.pre-head.show-on-mobile {
+	display: none !important;
+}
+
+#header nav {
+	display:none;
+}
+
+#header a.searchsubmit {
+	background: #616161;
+	border: #616161 1px solid;
+	text-shadow: none;
+	box-shadow: none;
+}
+
+.comments-no {
+	display: none;
+}
+
+div.entry-meta.group {
+	display: inline-block;
+	width: 18%;
+	float: right;
+	margin-top: 3px;
+}
+
+@media only screen and ( max-width: 480px ) {
+	#header input.s {
+		width: 75%;
+		margin-left: 5%;
+	}
+
+	#header label.fLabel {
+		margin-left: 5%;
+	}
+
+	#header a.searchsubmit {
+		position: relative
+	}
+}
