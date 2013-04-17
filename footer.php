@@ -12,16 +12,16 @@
 <?php wp_footer(); ?>
 <div style="display:none">
 	<div id="myDivID2">
-		<form action="">
-			<input type="text" placeholder="Full Name*">
+		<form action="contact.php" method="post">
+			<input type="text" name="Name" placeholder="Full Name*" >
 			<br>
-			<input type="text" placeholder="Email*">
+			<input type="email" name="email" placeholder="Email*" >
 			<br>
-			<input type="text" placeholder="Phone Number">
+			<input type="tel" name="phonenumber" placeholder="Phone Number">
 			<br>
-			<textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+			<textarea name="pitch" id="" cols="30" rows="10" placeholder="Message..."></textarea>
 			<br>
-			<input type="submit" value="Send" class="send">
+			<input type="submit" class="send" value="send">
 		</form>
 	</div>
 </div>
