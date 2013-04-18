@@ -110,11 +110,14 @@ div.header-wgt.group {
 }
 #header aside#text-2 div.textwidget h2 {
 	text-shadow: none;
-	font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
-	color: #FFF;
+	font-family: 'PT Sans Narrow';
+	font-size: 41px;
+/*	font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
+*/	color: #FFF;
 }
 
 #header aside#text-2 div.textwidget p {
+	font-family: 'Open Sans';
     text-shadow:none;
     font-size:18px;
     color:white;
@@ -147,6 +150,8 @@ div.header-wgt.group {
 	border: #616161 1px solid;
 	text-shadow: none;
 	box-shadow: none;
+	position: relative;
+	right: 4px;
 }
 
 #header a, #footer a {
@@ -193,6 +198,17 @@ background-image: -webkit-gradient(
     margin-right:30px;
     text-shadow:none;
 }
+
+#myDivID2 form input:focus, #myDivID2 textarea:focus {
+    border: 1px solid #449CCE;
+    box-shadow: 1px 1px 4px rgba(75, 75, 75, 0.51);
+}
+
+#myDivID2 form input, #myDivID2 textarea {
+    transition:.3s;
+    -webkit-transiiton:.3s;
+}
+
 a.cta.black, a#fancyBoxLink2, #myDivID2 form input.send {
     background-image: linear-gradient(bottom, rgb(45,42,38) 23%, rgb(92,85,78) 73%);
 background-image: -o-linear-gradient(bottom, rgb(45,42,38) 23%, rgb(92,85,78) 73%);
@@ -208,7 +224,10 @@ background-image: -webkit-gradient(
 	color-stop(0.73, rgb(92,85,78))
 );
 	text-shadow:none;
+	transition: width 2s;
+-webkit-transition: width 2s; /* Safari */
 }
+
 #text-3 {
     display:block;
     text-align:center;
@@ -235,6 +254,7 @@ div.header-wgt.group {
 #header #text-4 h4 {
     padding: .5em 0em 1em 0em;
     background:white;
+    font-family: 'Lato';
 }
 
 #header h4 {
@@ -328,6 +348,10 @@ div.entry-meta.group {
 	#header a.searchsubmit {
 		position: relative
 	}
+	#header p {
+		border-top: 2px solid rgba(255, 255, 255, 0.39);
+		padding-top: 10px;
+	}
 }
 
 @media only screen  and ( max-width: 883px ) {
@@ -358,7 +382,6 @@ div.entry-meta.group {
 	#header aside#text-2 div.textwidget p {
 	    text-align:center;
 	    margin:10px 10% 20px 10%;
-	    padding:0px;
 	}
 
 }
