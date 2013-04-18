@@ -154,7 +154,7 @@ div.header-wgt.group {
 	font-size: 15px;
 }
 
-input.send {
+#myDivID2 form input.send {
 	color: #FFF;
 	border: 0;
 	padding: 1em 2em;
@@ -193,7 +193,7 @@ background-image: -webkit-gradient(
     margin-right:30px;
     text-shadow:none;
 }
-a.cta.black, a#fancyBoxLink2, input.send {
+a.cta.black, a#fancyBoxLink2, #myDivID2 form input.send {
     background-image: linear-gradient(bottom, rgb(45,42,38) 23%, rgb(92,85,78) 73%);
 background-image: -o-linear-gradient(bottom, rgb(45,42,38) 23%, rgb(92,85,78) 73%);
 background-image: -moz-linear-gradient(bottom, rgb(45,42,38) 23%, rgb(92,85,78) 73%);
@@ -282,8 +282,38 @@ div.entry-meta.group {
     margin-bottom:10px
 }
 
+#myDivID2 form input, #myDivID2 textarea {
+	background: #f8f8f8;
+  border-top: 1px solid #dfdfdf;
+  border-left: 1px solid #dfdfdf;
+  border-right: none;
+  border-bottom: none;
+  padding: 7px 6px 8px;
+  font: inherit;
+  color: #737373;
+  font-size: 12px;
 
+  -moz-transition: 0.2s all linear;
+  -webkit-transition: 0.2s all linear;
+  -o-transition: 0.2s all linear;
+  transition: 0.2s all linear;
+    border: #B9B9B9 1px solid;
+    border-radius:3px;
+    font-size:15px;
+    width:80%;
+    margin:0 auto;
+    display:block;
+    box-shadow: 0 4px 4px -2px rgba(129, 126, 126, 0.45);    
+    -moz-box-shadow: 0 4px 4px -2px rgba(129, 126, 126, 0.45);
+    -webkit-box-shadow: 0 4px 4px -2px rgba(129, 126, 126, 0.45);
+}
+#myDivID2 input[type=&quot;text&quot;]:active, #myDivID2 textarea:active {
+    border:red 1px solid;
+}
 
+#myDivID2 input[type=&quot;text&quot;]:hover, #myDivID2 textarea:hover {
+    border:black 1px gray;
+}
 
 @media only screen and ( max-width: 480px ) {
 	#header input.s {
@@ -298,4 +328,61 @@ div.entry-meta.group {
 	#header a.searchsubmit {
 		position: relative
 	}
+}
+
+@media only screen  and ( max-width: 883px ) {
+	#header {
+		background-size: 883px;
+	}
+
+	#myDivID p {
+	    display:block;
+	    width:80%;
+	    margin: 10px auto 20px auto;
+	}
+
+	#header #text-4 h4 {
+	    padding: 5% 10% 5% 10%;
+	}
+	#header aside#text-2 {
+    margin:0;
+    padding:13px 0px;
+	}
+
+	#header aside#text-2 div.textwidget h2 {
+	    text-align:center;
+	    margin:0px 10% 10px 10%;
+	    padding:0px;
+	}
+
+	#header aside#text-2 div.textwidget p {
+	    text-align:center;
+	    margin:10px 10% 20px 10%;
+	    padding:0px;
+	}
+
+}
+
+@media only screen ( min-width: 400px ) and ( max-width: 670px ) {
+	.box {
+		width: 300px;
+	}
+	#intro.box {
+		width:290px;
+	}
+}
+
+		
+
+@media only screen and ( max-width: 670px ) {
+	#header a.cta {
+    display:block;
+    width:50%;
+    margin:10px auto;
+ }
+ 	#header {
+		background-size: auto 100%;
+		background-position:-60% 100%;
+	}
+
 }
