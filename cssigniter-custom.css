@@ -18,6 +18,10 @@ body {
 	display:none;
 }
 
+.box {
+	border-radius:0px;
+}
+
 .box .entry-desc {
 	background:none;
 	border:0;
@@ -29,8 +33,6 @@ body {
 
 .box .entry-content-cnt {
 	background:url('http://pradadesigners.com/Projects/Mock/coffee.png');
-	border-top-left-radius: 4px;
-	border-top-right-radius: 4px;
 }
 
 #site-head {
@@ -56,7 +58,17 @@ hgroup.logo.imglogo {
 	color: white;
 }
 
+.fancybox-opened .fancybox-outer {
+	background:url('http://pradadesigners.com/Projects/Mock/coffee.png');
+}
 
+#main article {
+	box-shadow: none;
+	border-bottom: 3px solid #EC4D46;
+	border-left: 1px solid #9E9E9E;
+	border-right: 1px solid #9E9E9E;
+	border-top: #9E9E9E solid 1px;
+}
 
 hgroup.logo.imglogo img {
 	width: 100%
@@ -64,6 +76,10 @@ hgroup.logo.imglogo img {
 
 .fancybox-nav {
 	display: none;
+}
+
+.entry-content img {
+	margin-top:4px;
 }
 
 #entry-listing .entry h1 {
@@ -114,6 +130,8 @@ div.header-wgt.group {
 	font-size: 41px;
 /*	font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
 */	color: #FFF;
+	position: relative;
+	top: 25px;
 }
 
 #header aside#text-2 div.textwidget p {
@@ -121,6 +139,8 @@ div.header-wgt.group {
     text-shadow:none;
     font-size:18px;
     color:white;
+    position: relative;
+	bottom: 6px;
 }
 
 #header #search-2 {
@@ -164,9 +184,9 @@ div.header-wgt.group {
 	border: 0;
 	padding: 1em 2em;
 	text-align: center;
-	width: 100%;
+	width: 85%;
 	display: block;
-	margin-top: 1em;
+	margin-top: 0px;
 }
 
 a.cta {
@@ -195,7 +215,7 @@ background-image: -webkit-gradient(
 	color-stop(0.21, rgb(188,22,0)),
 	color-stop(0.99, rgb(254,59,15))
 );
-    margin-right:30px;
+    margin-right:17px;
     text-shadow:none;
 }
 
@@ -248,13 +268,14 @@ div.header-wgt.group {
     display: block;
     text-align: center;
     text-shadow: none;
-    background: #F6F4EF
+    background: #F6F4EF;
 }
 
 #header #text-4 h4 {
-    padding: .5em 0em 1em 0em;
     background:white;
     font-family: 'Lato';
+    padding-top: 35px;
+	padding-bottom: 6px;
 }
 
 #header h4 {
@@ -286,7 +307,6 @@ div.entry-meta.group {
 	padding: 0;
 }
 
-
 #myDivID p {
     display:inline-block;
     width:14.3%;
@@ -300,6 +320,10 @@ div.entry-meta.group {
     display:block;
     border-bottom: 1px solid gray;
     margin-bottom:10px
+}
+
+#main {
+	padding: 9px 0px;
 }
 
 #myDivID2 form input, #myDivID2 textarea {
@@ -335,6 +359,14 @@ div.entry-meta.group {
     border:black 1px gray;
 }
 
+.mobile-only {
+	display: none
+}
+
+span.child {
+	display: none
+}
+
 @media only screen and ( max-width: 480px ) {
 	#header input.s {
 		width: 75%;
@@ -354,7 +386,7 @@ div.entry-meta.group {
 	}
 }
 
-@media only screen  and ( max-width: 883px ) {
+@media only screen  and ( max-width: 937px ) {
 	#header {
 		background-size: 883px;
 	}
@@ -366,33 +398,107 @@ div.entry-meta.group {
 	}
 
 	#header #text-4 h4 {
-	    padding: 5% 10% 5% 10%;
+	    padding: 17px 10px;
 	}
+
 	#header aside#text-2 {
-    margin:0;
-    padding:13px 0px;
+	    margin: 0px;
+		padding: 0px;
 	}
 
 	#header aside#text-2 div.textwidget h2 {
 	    text-align:center;
 	    margin:0px 10% 10px 10%;
-	    padding:0px;
+	    line-height: 37px;
+		padding: 0px 0px 10px 0px;
 	}
 
 	#header aside#text-2 div.textwidget p {
 	    text-align:center;
-	    margin:10px 10% 20px 10%;
+	    margin: 24px 17% 20px 17%;
+		bottom: 0px;
+	}
+	
+	#header #search-2 {
+		padding-bottom: 0px;
+	}
+
+	.mobile-only {
+	display: inherit;
+	}
+
+	#myDivID2 {
+		height:400px;
+	}
+
+	#myDivID2 form textarea {
+		height: 60px;
 	}
 
 }
 
-@media only screen ( min-width: 400px ) and ( max-width: 670px ) {
-	.box {
-		width: 300px;
+
+@media only screen  and (max-width : 740px) { 
+   .box {
+		width: 400px;
 	}
+
 	#intro.box {
-		width:290px;
+		width:400px;
 	}
+	#box-container {
+	  margin: 0 auto;
+	  max-width:400px;
+	  width: auto !important;
+	}
+}
+
+
+
+@media only screen  and (min-device-width : 320px)  and (max-device-width : 640px) { 
+   .box {
+		width: 370px;
+	}
+	#main {
+		padding-top:12px;
+	}
+
+	#intro.box {
+		width:370px;
+	}
+	#main article {
+		width: 80%;
+		margin-left: 10%;
+	}
+	#box-container {
+	  margin: 0 auto;
+	  max-width:370px;
+	  width: auto !important;
+	}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1136px) and (orientation : landscape) {
+    #box-container {
+	  margin: 0 auto;
+	  max-width:370px;
+	  width: auto !important;
+	}
+	#main article {
+		width: 90%;
+		margin-left:5%;
+	}
+
+	#main {
+		padding-top:12px;
+	}
+
+	   .box {
+			width: 370px;
+		}
+
+		#intro.box {
+			width:370px;
+		}
 }
 
 		
@@ -409,3 +515,17 @@ div.entry-meta.group {
 	}
 
 }
+
+
+@media only screen and ( min-width: 938px ) {
+	#myDivID2 {
+		width:680px;
+
+	}
+
+	#myDivID2 form {
+	margin:3em 0em;
+	}
+}
+
+
