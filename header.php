@@ -35,10 +35,6 @@ $alt_layout = ci_setting('layout')=='alt' ? ' alt ' : '';
 
 	<div id="site-head">
 		<div class="wrap group">
-			<hgroup class="logo <?php echo ( ci_setting('logo')!='' ? 'imglogo' : 'textual' ); ?>">
-				<?php ci_e_logo('<h1>', '</h1>'); ?>
-			</hgroup>
-
 			<div class="header-wgt group">
 				<?php dynamic_sidebar('top_bar'); ?>
 			</div> <!-- .header-wgt -->

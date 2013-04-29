@@ -4,7 +4,7 @@
 <footer id="footer">
 	<div class="wrap group">
 		<div class="footer-text">
-			<?php echo apply_filters('ci_footer_credits', ''); ?>
+			<a href="#myDivID2" id="fancyBoxLink2"  class="cta black" >Contact us to learn more</a>
 		</div>
 	</div>
 </footer>
@@ -39,7 +39,6 @@
 
 <script type="text/javascript">
 jQuery(document).ready(function($){
-	$('.footer-text').html('<a href="#myDivID2" id="fancyBoxLink2"  class="cta black" >Contact us to learn more</a>');
 	$("a#fancyBoxLink").fancybox({
 		'href'   : '#myDivID',
 		'titleShow'  : false,
