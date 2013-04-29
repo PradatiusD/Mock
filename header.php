@@ -8,7 +8,7 @@
 	<title><?php ci_e_title(); ?></title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:700|Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato|PT+Sans+Narrow|Open+Sans' rel='stylesheet' type='text/css'>
 	<meta name="apple-itunes-app" content="app-id=591553751">
 	<!-- JS files are loaded via /functions/scripts.php -->
 
