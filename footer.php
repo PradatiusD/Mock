@@ -27,13 +27,12 @@
 </div>
 <div style="display:none">
 	<div id="myDivID">
-		<p><strong>Extensive Library</strong>100s of mobile-only elements, one of the largest on the web. New elements added every week.</p>
-		<p><strong>Production Quality</strong>Pixel perfect images, ready to drop into your project, backed by a rigorous QA process</p>
-		<p><strong>Custom Services</strong>You get PSDs With vector layers. Need help customizing. No problem, we’ve got a design team to back you up.</p>
-		<p><strong>Companion App</strong></p>
-		<p><strong>We understand enterprise</strong>Led by a team of Enterprise veterans We’re ready to Give you the support you need.</p>
-		<p><strong>Leverage our design service to free yourself and focus on your platform</strong><strong>It makes economic sense</strong>We are good at following Design trends and efficiently expanding our design library. If you had to do it yourself, it would cost you hundredsof thousands of dollars. Hire Us for core competence, And Free Yourself to add more value To your client’s business.
-</p>
+		<p><img src="http://getmock.com/store/wp-content/uploads/2013/04/library.png"/><strong>Extensive Library</strong><span>Hundreds of mobile-only elements, one of the largest on the web. New elements added every week.</span></p>
+		<p><img src="http://getmock.com/store/wp-content/uploads/2013/04/star1.png"/><strong>Production Quality</strong><span>Pixel perfect images, ready to drop into your project, backed by a rigorous QA process.</span></p>
+		<p><img src="http://getmock.com/store/wp-content/uploads/2013/04/checkmark.png"/><strong>Vector Layer PSDs</strong><span>Need help customizing to your needs? No problem, we’ve got a design team to back you up.</span></p>
+		<p><img src="http://getmock.com/store/wp-content/uploads/2013/04/mobile.png"/><strong>Companion iPhone App</strong><span>With Mock, you can take your clients from low-fidelity to production quality mock-ups.</span></p>
+		<p><img src="http://getmock.com/store/wp-content/uploads/2013/04/smiley.png"/><strong>It makes economic sense</strong><span>We focus on the forefront of mobile design so you don't have to.</span></p>
+		<p><img src="http://getmock.com/store/wp-content/uploads/2013/04/trophy.png"/><strong>Focus on the product</strong><span>  Hire us for core design competence, and free yourself to add more value to your client’s business.</span></p>
 	</div>
 </div>
 
